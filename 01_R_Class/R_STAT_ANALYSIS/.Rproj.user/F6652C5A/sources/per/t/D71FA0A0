@@ -1,0 +1,28 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1567477708316.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2276507173",
+    "id" : "D71FA0A0",
+    "lastKnownWriteTime" : 1567487578,
+    "last_content_update" : 1567487578490,
+    "path" : "~/GitHub/RBasic/R_STAT_ANALYSIS/R_ML_STAT_03_firstModel.rmd",
+    "project_path" : "R_ML_STAT_03_firstModel.rmd",
+    "properties" : {
+        "cursorPosition" : "3,3",
+        "docOutlineSize" : "223",
+        "docOutlineVisible" : "1",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

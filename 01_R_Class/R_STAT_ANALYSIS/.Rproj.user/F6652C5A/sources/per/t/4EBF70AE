@@ -1,0 +1,28 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1567522380150.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1971712172",
+    "id" : "4EBF70AE",
+    "lastKnownWriteTime" : 1567527544,
+    "last_content_update" : 1567527545566,
+    "path" : "~/GitHub/RBasic/RProject02B_Titanic.md",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "3,2",
+        "docOutlineSize" : "308",
+        "docOutlineVisible" : "1",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "markdown"
+}
