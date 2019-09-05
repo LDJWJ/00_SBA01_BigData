@@ -1,11 +1,15 @@
 # SBA01_BigData_TEST
 
-### 학습내용
+### 빅데이터 1기
+### 01_R_Class  
+### 02_DeepLearning_Class 
+### 03_Kaggle_Class 
+### 04_Hadoop_Class
 
-###
+* GitHub URL
+https://ldjwj.github.io/00_SBA01_BigData/
 
-
-### 자료 LINK
+* LINK
 https://github.com/LDJWJ/00_SBA01_BigData/
 
-(HTML) https://ldjwj.github.io/00_SBA01_BigData/
+
