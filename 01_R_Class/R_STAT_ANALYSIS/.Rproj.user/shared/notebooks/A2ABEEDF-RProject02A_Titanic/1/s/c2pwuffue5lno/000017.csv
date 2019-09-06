@@ -1,4 +1,0 @@
-"0","ggplot(data=train, aes(x=Embarked)) + geom_bar()
-ggplot(data=train, aes(x=Embarked)) + geom_bar()
-"
-"0","ggplot(data=test, aes(x=Embarked)) + geom_bar()"
