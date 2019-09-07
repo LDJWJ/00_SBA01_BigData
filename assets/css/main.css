@@ -320,6 +320,8 @@
 			margin: 0 1em 2em 1em;
 			width: 30%;
 		}
+		
+/* 09/08 Comment 
 
 			@media screen and (max-width: 1280px) {
 
@@ -336,7 +338,7 @@
 				}
 
 			}
-
+*/
 /* Form */
 
 	form {
@@ -537,6 +539,14 @@
 	}
 
 /* Box */
+	.box {
+		border-radius: 4px;
+		margin-bottom: 2em;
+		background: #2c2c32;
+		text-align: center;
+	}
+	
+/* Box 
 
 	.box {
 		border-radius: 4px;
@@ -559,24 +569,12 @@
 			border-radius: 4px 4px 0 0;
 		}
 
-		.box .inner {
-			padding: 1.5em;
-			width: 100% !important;
-		}
-
-			@media screen and (max-width: 480px) {
-
-				.box .inner {
-					padding: 1em;
-				}
-
-			}
-
 		.box.alt {
 			border: 0;
 			border-radius: 0;
 			padding: 0;
 		}
+*/
 
 /* Icon */
 
