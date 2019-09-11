@@ -12,10 +12,19 @@
 
 
 
-
+&lt;style&gt;
+.title {
+color:blue;
+font-size:40px;
+}
+.title1 {
+color:#00BFFF;
+font-size:40px;
+}
+&lt;/style&gt;
 
 ---
-### 라이브러리 준비
+&lt;font class="title"&gt;라이브러리 준비&lt;/font&gt;
 1. rJava, memoise, KoNLP
 2. KoNLP 사용을 위해서는 JDK 사전 설치 필요
 3. 설치 후, search()를 통해 불러온 것을 확인
@@ -28,7 +37,7 @@ library(KoNLP)
 ```
 
 ---
-### 사전 설정하기
+&lt;font class="title"&gt;사전 설정하기&lt;/font&gt;
 * 기존 형태소 사전의 부족한 단어 수를 보완한 새로운 형태소 사전(NIADic)를 개발하여 제공.
 
 ```r
@@ -38,7 +47,7 @@ useNIADic()
 
 
 ---
-### 사전 설정하기
+&lt;font class="title"&gt;사전 설정하기&lt;/font&gt;
 * 기존 형태소 사전의 부족한 단어 수를 보완한 새로운 형태소 사전(NIADic)를 개발하여 제공.
 
 ```r
@@ -46,7 +55,7 @@ useNIADic()
 ```
 
 ---
-### 텍스트 준비
+&lt;font class="title"&gt;텍스트 준비&lt;/font&gt;
 * 여러줄 문자열 입력
 * 강철 도시의 본문중 일부
 
@@ -63,7 +72,7 @@ txt &lt;- '
 ```
 
 ---
-### 특수 문자 제거
+&lt;font class="title"&gt;특수 문자 제거&lt;/font&gt;
 * 문자열 처리 패키지 불러오기(stringr)
 * 특수 문자 제거
 
@@ -74,7 +83,7 @@ txt
 ```
 
 ---
-### 명사 추출 및 단어별 빈도 확인
+&lt;font class="title"&gt;명사 추출 및 단어별 빈도 확인&lt;/font&gt;
 * extractNoun(txt) 명사 추출 함수(KoNLP패키지) 
 * unlist() : 만약 벡터가 아닌 리스트 형태라면 1차원 형태로 만든다. 
 * table(벡터) : 단어별 빈도를 확인
@@ -116,14 +125,14 @@ wordCount
 
 
 ---
-### 실습 해보기 1-1
+&lt;font class="title"&gt;실습 해보기 1-1&lt;/font&gt;
 * (1) barplot를 이용하여 단어별 빈도를 막대그래프로 그려보자.  
 * (2) ggplot를 활용하여 단어별 빈도를 확인해 보자.
   * (Hint) ggplot은 데이터 프레임을 활용해 본다. 
 * (LevelUp) 자신만의 텍스트 문서를 만들어 이를 불러와 빈도 분석을 수행해 본다. (파일 읽기 시, readLines 이용)
 
 ---
-### 워드 클라우드
+&lt;font class="title"&gt;워드 클라우드&lt;/font&gt;
 1. 텍스트에서 빈번히 사용된 키워드를 시각적으로 표시.
 2. 사용빈도가 높은 단어일수록 큰 글씨로 표시 가능.
 3. 필요 패키지 (wordcloud)
@@ -135,7 +144,7 @@ library(wordcloud)
 ```
 
 ---
-### 01 텍스트 준비
+&lt;font class="title"&gt;01 텍스트 준비&lt;/font&gt;
 * 강철도시 - 본문 사용
 
 ```r
@@ -152,7 +161,7 @@ txt &lt;- '
 
 
 ---
-### 02 사전 불러오기 및 명사 추출
+&lt;font class="title"&gt;02 사전 불러오기 및 명사 추출&lt;/font&gt;
 * 강철도시 - 본문 사용
 
 ```r
@@ -179,7 +188,8 @@ nouns
 ```
 
 ---
-### 03 명사중, 2글자 이상인 것만 가져오기
+&lt;font class="title"&gt;03 명사중, 2글자 이상인 것만 가져오기
+&lt;font&gt;
 
 ```r
 word &lt;- unlist(nouns)  # 1차원 배열로 만들기
@@ -205,7 +215,7 @@ word
 ```
 
 ---
-### 04 단어 빈도 확인
+&lt;font class="title"&gt;04 단어 빈도 확인&lt;/font&gt;
 
 ```r
 #### 단어 빈도 확인
@@ -222,7 +232,7 @@ wordFreq
 ```
 
 ---
-### 05 색 지정
+&lt;font class="title"&gt;05 색 지정&lt;/font&gt;
 * 패키지 : install.packages("RColorBrewer")
 
 ```r
@@ -236,7 +246,9 @@ pal
 ```
 
 ---
-### 06 워드 클라우드 시각화
+&lt;font class="title"&gt;
+06 워드 클라우드 시각화
+&lt;/font&gt;
 
 ```r
 library(wordcloud)
@@ -253,7 +265,9 @@ wordcloud(word=names(wordFreq),
 ![](R_LV_Up08_TextMining_files/figure-html/unnamed-chunk-13-1.png)&lt;!-- --&gt;
 
 ---
-### 07 워드 클라우드 시각화
+&lt;font class="title"&gt;
+07 워드 클라우드 시각화
+&lt;/font&gt;
 
 ```r
 wordcloud(word=names(wordFreq), # 단어 
@@ -263,6 +277,137 @@ wordcloud(word=names(wordFreq), # 단어
           random.order=F,  # 단어빈도와 상관없이 중앙에 위치
           family="malgun") # 글자체 지정 
 ```
+
+---
+class: center, middle, title-slide, 
+
+## 한글 텍스트 분석을 위한 TFIDF 이해해 보기
+
+---
+&lt;font class="title1"&gt;
+STEP 01. 각 문서의 내용 지정
+&lt;/font&gt;
+
+```r
+library(tm)
+```
+
+```
+## Loading required package: NLP
+```
+
+```r
+doc1 &lt;- "The fox chases the rabbit"
+doc2 &lt;- "The rabbit ate the cabbage"
+doc3 &lt;- "The fox caught the rabbit"
+```
+
+---
+&lt;font class="title1"&gt;
+STEP 02. Document 생성
+&lt;/font&gt;
+
+```r
+doc.list &lt;- c(doc1, doc2, doc3)
+n.docs &lt;- length(doc.list)
+names(doc.list) &lt;- paste("doc", c(1:n.docs), sep="")
+names(doc.list)
+```
+
+```
+## [1] "doc1" "doc2" "doc3"
+```
+
+---
+&lt;font class="title1"&gt;
+STEP 03. 말뭉치(Corpus) 생성및 전처리(소문자변경) 
+&lt;/font&gt;
+ * source 의 종류
+  - DirSource() : 디렉토리
+  - DataframeSource() : R데이터 프레임
+  - VectorSource() : R 벡터
+  - XMLSource() : XML 파일
+  - URISource() : URI
+  
+ * VCorpus : Volatile(메모리에 저장되는) 코퍼스
+
+```r
+my.corpus &lt;- Corpus(VectorSource(doc.list))
+my.corpus &lt;- tm_map(my.corpus, tolower)
+inspect(my.corpus)
+```
+
+```
+## &lt;&lt;SimpleCorpus&gt;&gt;
+## Metadata:  corpus specific: 1, document level (indexed): 0
+## Content:  documents: 3
+## 
+##                       doc1                       doc2 
+##  the fox chases the rabbit the rabbit ate the cabbage 
+##                       doc3 
+##  the fox caught the rabbit
+```
+
+---
+&lt;font class="title1"&gt;
+STEP 04. TF구하기 (Term Frquency 구하기) 
+&lt;/font&gt;
+
+```r
+TDM &lt;- TermDocumentMatrix(my.corpus, 
+                          control=list(weighting=weightTf))
+m &lt;- as.matrix(TDM)
+m
+```
+
+```
+##          Docs
+## Terms     doc1 doc2 doc3
+##   chases     1    0    0
+##   fox        1    0    1
+##   rabbit     1    1    1
+##   the        2    2    2
+##   ate        0    1    0
+##   cabbage    0    1    0
+##   caught     0    0    1
+```
+
+---
+&lt;font class="title1"&gt;
+STEP 05. TF-IDF 구하기&lt;/font&gt;
+&lt;pre&gt;
+weighting 은 행렬의 원소를 나타내는 인수로서 기본값은 TF를 나타내는
+weightTf이다.
+&lt;/pre&gt;
+&lt;img src="img/TFIDF01.png"&gt;
+
+```r
+TDM &lt;- TermDocumentMatrix(my.corpus,    
+            control=list(weighting=weightTfIdf))
+m &lt;- as.matrix(TDM)
+m
+```
+
+```
+##          Docs
+## Terms          doc1      doc2      doc3
+##   chases  0.3169925 0.0000000 0.0000000
+##   fox     0.1169925 0.0000000 0.1169925
+##   rabbit  0.0000000 0.0000000 0.0000000
+##   the     0.0000000 0.0000000 0.0000000
+##   ate     0.0000000 0.3169925 0.0000000
+##   cabbage 0.0000000 0.3169925 0.0000000
+##   caught  0.0000000 0.0000000 0.3169925
+```
+
+---
+&lt;font class="title1"&gt;[Quiz] 아래 3개의 텍스트 문서에 대해 TF, TF-IDF 를 구해보자.
+&lt;/font&gt;
+&lt;pre&gt;
+doc1 : The game of life is a game of everlasting learning
+doc2 : The unexamined life is not worth living
+doc3 : Never stop learning
+&lt;/pre&gt;
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
