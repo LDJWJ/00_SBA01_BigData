@@ -1681,12 +1681,14 @@ library(ggplot2)</code></pre>
 귀무가설 : 남부와 비남부가 같은 투옥 확률을 갖는다.
 대립가설 : 남부와 비남부가 같은 투옥 확률을 갖지 않는다.
 
-단, t-test를 위해 등분산성, 정규성이 만족되어야 함. 
+단, t-test를 위해 독립성, 정규성, 등분산성이 만족되어야 함. 
 </pre>
 <div id="section-3" class="section level4">
 <h4>정규성 체크</h4>
 <pre class="content">
-보통 관측 개수가 30개 이상일 때, 만족한다고 판단할 수 있음. 
+* 보통 관측 개수가 30개 이상일 때, 만족한다고 판단할 수 있음. 
+* 만약 관측개수가 10~30개 사이일 경우, Kolmogorov-Smirnov test, Shapiro-Wilk test등의 방법으로 검정을 해야함. 
+* 10개 미만, 정규성을 띠지 않는 것으로 간주함.(Mann-Whitney test)
 </pre>
 <pre class="r"><code>dim(UScrime)</code></pre>
 <pre><code>## [1] 47 16</code></pre>
@@ -1787,6 +1789,12 @@ y1,y2는 두 종속집단의 숫자 벡터이다.
 
 대립가설 채택한다. 
 </pre>
+</div>
+<div id="ref" class="section level3">
+<h3>REF</h3>
+<ul>
+<li>mann-whitney-wilcoxon-test in R : (<a href="http://www.r-tutor.com/elementary-statistics/non-parametric-methods/mann-whitney-wilcoxon-test" class="uri">http://www.r-tutor.com/elementary-statistics/non-parametric-methods/mann-whitney-wilcoxon-test</a>)</li>
+</ul>
 </div>
 </div>
 
