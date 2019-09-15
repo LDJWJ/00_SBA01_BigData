@@ -2,11 +2,15 @@
 
 ### 빅데이터 1기
 ### 01_R_Class  
+https://ldjwj.github.io/00_SBA01_BigData/05_HTML/idx_lec_list
+
 ### 02_DeepLearning_Class 
+
 ### 03_Kaggle_Class 
+
 ### 04_Hadoop_Class
 
-* GitHub URL
+* All Category GitHub URL
 https://ldjwj.github.io/00_SBA01_BigData/
 
 * LINK
