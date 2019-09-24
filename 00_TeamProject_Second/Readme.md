@@ -27,8 +27,8 @@
 ## <font color='#00AAAA'>Reference Documents</font>
 
 - Proj-01. [필답형 시험자료           ][proj-01]
-- Proj-02. [포트폴리오 자료           ][proj-01]
-- Proj-03. [프로젝트보고서 포맷           ][proj-02]
+- Proj-02. [포트폴리오 자료           ][proj-02]
+- Proj-03. [프로젝트보고서 포맷           ][proj-03]
 
 
 [proj-01]:  ./docu/R_Stat_Problem_v10_0924.pdf             "Go proj-01"
