@@ -17,4 +17,5 @@ https://ldjwj.github.io/00_SBA01_BigData/
 * LINK
 https://github.com/LDJWJ/00_SBA01_BigData/
 
-
+## TEAM PROJECT
+[일일 파일럿 프로젝트]
