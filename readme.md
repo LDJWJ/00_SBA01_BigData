@@ -7,6 +7,7 @@ https://ldjwj.github.io/00_SBA01_BigData/05_HTML/idx_lec_list
 ## 02_DeepLearning_Class 
 
 ## 03_Kaggle_Class 
+https://ldjwj.github.io/00_SBA01_BigData/05_HTML/idx_lec_kaggle_list.html
 
 ## 04_Hadoop_Class
 
