@@ -37,7 +37,7 @@
 [proj-05]:  ./docu/MLDLII_Problem_v10_1008.pdf    "Go proj-05"
 
 <hr>
-[![Video Label](images/sba_seoulIt01.png)](https://youtu.be/ts2FFGpPqpA)
+(images/sba_seoulIt01.png)](https://youtu.be/ts2FFGpPqpA)
 
 ### SBA19 빅데이터 실무자 양성과정 1기 !!  최고 멋진 친구들 버전 화이팅!!! ver3 ^^
 
