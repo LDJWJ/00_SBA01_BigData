@@ -18,7 +18,7 @@
 01_파이썬활용빅데이터수집&처리
 02_머신러닝_딥러닝I
 03_머신러닝_딥러닝II
-
+04_캐글데이터분석
 <hr>
 
 ## <font color='#00AAAA'>Reference Documents</font>
@@ -28,16 +28,18 @@
 - Proj-03. [02_머신러닝_딥러닝I_ 필답형자료  ][proj-03]
 - Proj-04. [03_R기본및통계기본  ][proj-04]
 - Proj-05. [04_머신러닝_딥러닝II_필답형자료  ][proj-05]
-
+- Proj-06. [05_캐글데이터분석_필답형자료  ][proj-05]
 
 [proj-01]:  ./docu/Python_Basic_v10_0926_Problem.pdf       "Go proj-01"
-[proj-02]:  ./docu/..    "Go proj-02"
-[proj-03]:  ./docu/..    "Go proj-03"
+[proj-02]:  ./docu/Python_WebGetData_v10_1014.pdf "Go proj-02"
+[proj-03]:  ./docu/MLDLI_Problem_v10_1014.pdf "Go proj-03"
 [proj-04]:  ./docu/..    "Go proj-04"
 [proj-05]:  ./docu/MLDLII_Problem_v10_1008.pdf    "Go proj-05"
 
 <hr>
-(images/sba_seoulIt01.png)](https://youtu.be/ts2FFGpPqpA)
+
+[![Video Label](images/sba19_memorys.jpg)](https://youtu.be/ts2FFGpPqpA) 
+[![Video Label](images/sba_seoulIt01.png)](https://youtu.be/ts2FFGpPqpA)
 
 ### SBA19 빅데이터 실무자 양성과정 1기 !!  최고 멋진 친구들 버전 화이팅!!! ver3 ^^
 
