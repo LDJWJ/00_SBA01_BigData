@@ -14,12 +14,12 @@
 
 ## <font color='#00AAAA'>Notice for Team Project</font>
 
-일일 프로젝트 진행
-2019.10.15(화) ~ 2019.10.22(화) <br>
-STEP 01. 과제 선정 <br>
-STEP 02. 데이터 수집 및 처리/시각화 <br>
-STEP 03. CNN 딥러닝 모델 만들기 및 성능 고도화 <br>
-STEP 04. 2019.10.21 23:00 결과물 제출  <br>
+## 일일 프로젝트 진행
+### 2019.10.15(화) ~ 2019.10.22(화) <br>
+### STEP 01. 과제 선정 <br>
+### STEP 02. 데이터 수집 및 처리/시각화 <br>
+### STEP 03. CNN 딥러닝 모델 만들기 및 성능 고도화 <br>
+### STEP 04. 2019.10.21 23:00 결과물 제출  <br>
 
 팀별 발표   <br>
 2019.10.22(화) 
@@ -41,7 +41,7 @@ STEP 04. 2019.10.21 23:00 결과물 제출  <br>
 
 ##  <font color='#00AAAA'>Team Project : Kick Off</font>
 
-- <b>1st Subject </b>: <font color='#CC0000'><b>Analyze Social Issues Using BigData </b></font>
+- <b>1st Subject </b>: <font color='#CC0000'><b>Analyze Social Issues Using DeepLearning </b></font>
 - <b>Our Motto   </b>: <font color='#CC0000'><b>Learning by doing, doing by learning !! </b></font>
 - <b>Report Format </b>: <a href="./docu/SBA19_프로젝트보고서_포맷_OOO팀.docx">착수보고서 양식</a>
 - ※ If you click on the image on the right, you can view "Initiation Report" by team.
