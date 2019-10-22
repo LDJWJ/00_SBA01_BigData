@@ -14,12 +14,12 @@
 
 ## <font color='#00AAAA'>Notice for Team Project</font>
 
-## 일일 프로젝트 진행
-### 2019.10.15(화) ~ 2019.10.22(화) <br>
-### STEP 01. 과제 선정 <br>
-### STEP 02. 데이터 수집 및 처리/시각화 <br>
-### STEP 03. CNN 딥러닝 모델 만들기 및 성능 고도화 <br>
-### STEP 04. 2019.10.21 23:00 결과물 제출  <br>
+일일 프로젝트 진행
+2019.10.15(화) ~ 2019.10.22(화) <br>
+STEP 01. 과제 선정 <br>
+STEP 02. 데이터 수집 및 처리/시각화 <br>
+STEP 03. CNN 딥러닝 모델 만들기 및 성능 고도화 <br>
+STEP 04. 2019.10.21 23:00 결과물 제출  <br>
 
 팀별 발표   <br>
 2019.10.22(화) 
@@ -41,7 +41,7 @@
 
 ##  <font color='#00AAAA'>Team Project : Kick Off</font>
 
-- <b>1st Subject </b>: <font color='#CC0000'><b>Analyze Social Issues Using DeepLearning </b></font>
+- <b>1st Subject </b>: <font color='#CC0000'><b>Analyze Social Issues Using BigData </b></font>
 - <b>Our Motto   </b>: <font color='#CC0000'><b>Learning by doing, doing by learning !! </b></font>
 - <b>Report Format </b>: <a href="./docu/SBA19_프로젝트보고서_포맷_OOO팀.docx">착수보고서 양식</a>
 - ※ If you click on the image on the right, you can view "Initiation Report" by team.
@@ -59,51 +59,97 @@
 		<td>
         <div align="center"> 
             A팀<br/> 
-            <b>Team Name1</b>                                                                                                   </div></td>
+            <b>운송 수단</b>
+		</div></td>
 		<td>
             <div align="left"  > 
-                 홍길동, TOTO<br/> 이기자, 굿프렌즈                                                             </div>
-        </td>
-		<td><div align="left"  > 취업 지역 불평등 문제 해결하기 </div></td>
-		<td>
-            <div align="center"> <a href="reports/..">
-            <img src='images/job_support01.png' width=200 height=100></a>    
+                 김지은<br/> 김은비, 성현민, 홍성민 
             </div>
         </td>
-	</tr>
-	<tr>
-		<td>
-        <div align="center"> 
-            B팀<br/> 
-            <b>Team Name2</b>                                                                                                   </div></td>
-		<td>
-            <div align="left"  > 
-                 홍길동, TOTO<br/> 이기자, 굿프렌즈                                                             </div>
-        </td>
-		<td><div align="left"  > 빅데이터 의료 평등화 해결하기 </div></td>
+		<td><div align="left"  >CIFAR10 응용모델 만들기 프로젝트 – 운송수단을 중심으로</div></td>
 		<td>
             <div align="center"> <a href="reports/..">
-            <img src='images/medical_pixabay_free.jpg' width=200 height=100></a>    
-            </div>
-        </td>
-	</tr>
-	<tr>
-		<td>
-        <div align="center"> 
-            C팀<br/> 
-            <b>Team Name3</b>                                                                                                   </div></td>
-		<td>
-            <div align="left"  > 
-                 홍길동3, TOTO<br/> 이기자2, 굿프렌즈3                                                             </div>
-        </td>
-		<td><div align="left"  > 마케팅 빅데이터 활용 </div></td>
-		<td>
-            <div align="center"> <a href="reports/..">
-            <img src='images/marketing_pixa_free_1920.jpg' width=200 height=100></a>    
+            <img src='images/job_support01.png' width=200 height=100 alt="운송수단"></a>    
             </div>
         </td>
 	</tr>
 
+	<tr>
+		<td>
+        <div align="center"> 
+            B팀<br/> 
+            <b>박수줘</b>
+		</div></td>
+		<td>
+            <div align="left"  > 
+                 김슬기<coludyju11@naver.com><br/> 김봉수, 손하늘, 이찬희 
+            </div>
+        </td>
+		<td><div align="left"  >특징에 따른 동물 분류</div></td>
+		<td>
+            <div align="center"> <a href="reports/..">
+            <img src='images/job_support01.png' width=200 height=100 alt="박수줘"></a>    
+            </div>
+        </td>
+	</tr>
+
+	<tr>
+		<td>
+        <div align="center"> 
+            C팀<br/> 
+            <b>ㅇ넷</b>
+		</div></td>
+		<td>
+            <div align="left"  > 
+                 김은수<br/> 김태웅, 김재경, 이승은 
+            </div>
+        </td>
+		<td><div align="left"  >물체 사진 딥러닝 </div></td>
+		<td>
+            <div align="center"> <a href="reports/..">
+            <img src='images/job_support01.png' width=200 height=100 alt="ㅇ넷"></a>    
+            </div>
+        </td>
+	</tr>
+	
+	<tr>
+		<td>
+        <div align="center"> 
+            D팀<br/> 
+            <b>멋쟁이 토마토팀</b>
+		</div></td>
+		<td>
+            <div align="left"  > 
+                 양한솔<br/> 류경아, 이송현, 김수환 
+            </div>
+        </td>
+		<td><div align="left"  >토마토 숙성 여부 이미지 분류 </div></td>
+		<td>
+            <div align="center"> <a href="reports/..">
+            <img src='images/job_support01.png' width=200 height=100 alt="멋쟁이토마토팀"></a>    
+            </div>
+        </td>
+	</tr>
+
+	<tr>
+		<td>
+        <div align="center"> 
+            E팀<br/> 
+            <b>온난화팀</b>
+		</div></td>
+		<td>
+            <div align="left"  > 
+                 이강산<kisb110116@gmail.com><br/> 백서연 윤종필 권다연 
+            </div>
+        </td>
+		<td><div align="left"  >펭귄, 북극곰, 바다표범 지킴이</div></td>
+		<td>
+            <div align="center"> <a href="reports/..">
+            <img src='images/job_support01.png' width=200 height=100 alt="온난화팀"></a>    
+            </div>
+        </td>
+	</tr>
+	
 <hr>
 
 [![Video Label](images/sba_seoulIt01.png)](https://youtu.be/ts2FFGpPqpA) 
