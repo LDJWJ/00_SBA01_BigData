@@ -149,7 +149,7 @@ STEP 04. 2019.10.21 23:00 결과물 제출  <br>
             </div>
         </td>
 	</tr>
-	
+</div>
 <hr>
 
 [![Video Label](images/sba_seoulIt01.png)](https://youtu.be/ts2FFGpPqpA) 
